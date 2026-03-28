@@ -1,4 +1,4 @@
-const USER = "ReyyHandalCoding";
+const USER = "ReyyHandalKoding";
 const REPO = "singularity-clan";
 const FILE = "data.json";
 
