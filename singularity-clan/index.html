@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Singularity Clan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
 
+<body>
+
+<div class="logo-box">
+  <img src="logo.png" class="logo">
+  <h1 class="title">SINGULARITY</h1>
+  <p class="tagline">Evade • Survive • Dominate</p>
+</div>
+
+<button onclick="login()">Login</button>
+<p>Role: <span id="role">guest</span></p>
+
+<button onclick="joinClan()">Join</button>
+<button onclick="addScore()">+Score</button>
+
+<h3>Total: <span id="total">0</span></h3>
+<p>Last Update: <span id="last">-</span></p>
+
+<div id="members"></div>
+
+<h2>Leaderboard</h2>
+<div id="board"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
