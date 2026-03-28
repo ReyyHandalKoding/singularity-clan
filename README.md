@@ -1,2 +1,0 @@
-# singularity-clan
-By : reyy
